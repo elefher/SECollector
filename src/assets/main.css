@@ -1,0 +1,148 @@
+body {
+	font-family: "Roboto", sans-serif;
+	height: 100%;
+	width: 100%;
+}
+
+#search {
+    background: #f7f7f7 none repeat scroll 0 0;
+    height: 200px;
+    margin: 10px auto;
+    width: 80%;
+}
+
+#logo {
+    text-align: center;
+}
+
+#logo span {
+    font-size: 65px;
+    font-weight: 900;
+}
+#search-input {
+    display: inline-flex;
+    margin: 50px 0 0;
+    width: 100%;
+}
+#query-input {
+	float: left;
+	border-radius: 0;
+	height: 40px;
+	width: 600px;
+	margin: 0 auto;
+	border: 1px solid black;
+	padding: 10px;
+	transition: box-shadow 0.3s ease 0s, border 0.3s ease 0s;
+}
+
+input[type="text"]:focus {
+	box-shadow: 0 0 5px 1px #969696;
+	border: 1px solid #707070;
+}
+
+input#submit, input#random {
+	float: left;
+	background: #000000;
+	padding: 8px 13px;
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+	font-size: 17px;
+	border-radius: 0px;
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	border: 1px solid #1A87B9;
+}
+
+input#submit:hover, input#random:hover {
+	box-shadow: 0 0 5px 1px #969696;
+	border: 1px solid #707070;
+}
+
+#results {
+    background: #f7f7f7 none repeat scroll 0 0;
+    margin: 0 auto;
+    padding: 10px 0;
+    width: 80%;
+}
+
+form {
+    margin: 0 auto;
+}
+
+form > #query-input, form > #submit {
+    margin: 0 30px;
+}
+
+.result {
+    background: #b7b3b3 none repeat scroll 0 0;
+    margin: 20px auto;
+    padding: 10px;
+    width: 70%;
+}
+
+.result > .title {
+    float: left;
+    font-size: 1.1em;
+    margin: 5px 0;
+    width: 100%;
+}
+
+.url {
+	color: #484848;
+    font-size: 1em;
+}
+
+.engine {
+    float: right;
+    color: #484848;
+}
+
+a {
+    color: #CC0000;
+    text-decoration: none;
+    outline: 0;
+}
+
+
+#no-results {
+    color: #dedede;
+    font-size: 7em;
+    margin: 200px auto;
+    width: 634px;
+}
+
+#console {
+    background: #f7f7f7 none repeat scroll 0 0;
+    padding: 10px 0;
+    height: 65px;
+    margin: 10px auto;
+    width: 80%;
+}
+
+
+#console > input {
+    margin: 0 100px;
+}
+.eng {
+    float: left;
+    margin-left: 20px;
+}
+
+#loader {
+    background: rgba(0, 0, 0, 0.8) none repeat scroll 0 0;
+    height: 100%;
+    left: 0;
+    margin: 0 auto;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display:none;
+}
+
+#loader > #img-loader {
+    background: rgba(0, 0, 0, 0) url("loader.gif") repeat scroll 0 0;
+    height: 100px;
+    margin: 10% auto;
+    width: 100px;
+}
+

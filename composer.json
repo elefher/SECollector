@@ -1,0 +1,16 @@
+{
+        "name": "LefterisDelimitrou/SECollector",
+        "authors": [
+            {
+                "name": "Lefteris Delimitrou",
+                "email": "eldelielev@gmail.com"
+            }
+        ],
+        "require": {
+            "monolog/monolog": "1.6.0",
+                "fabpot/goutte": "^3.1"
+        },
+		"autoload": {
+        		"psr-4": {"Acme\\": "src/"}
+    	}
+}
